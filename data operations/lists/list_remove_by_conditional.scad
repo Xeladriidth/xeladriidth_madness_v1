@@ -1,0 +1,1 @@
+//directive: subject each list item to conditional; if conditional == true, then enact remove
