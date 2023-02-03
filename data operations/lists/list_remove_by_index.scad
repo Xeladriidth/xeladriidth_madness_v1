@@ -2,12 +2,12 @@ function list_remove_by_index(target_list,projectile,index,carry) =
 
 assert(is_list(target_list))
 
+assert(!is_list(projectile))
+
 (
   (projectile==undef)
 )?
     target_list:
-
-
 
 (
   (!is_list(projectile))
@@ -40,29 +40,6 @@ assert(is_list(target_list))
             [target_list[index]]
         )
     ):
-
-(
-  (is_list(projectile))
-&&(index==undef)
-&&(carry==undef)
-)?
-    list_remove_by_index(target_list,projectile,[0,0],[]):
-
-(
-  (is_list(projectile))
-&&(is_list(index))
-&&(index>=len(projectile))
-)?
-    carry:
-
-(
-  (is_list(projectile))
-&&(is_list(index))
-&&(index<len(projectile))
-)
-    list_remove_by_index(target
-
-//we will write a new helper function for this
 
 
 assert(false,"function definition overrun in function list_remove_by_index");
