@@ -1,0 +1,1 @@
+//retrieves content of any structured data
