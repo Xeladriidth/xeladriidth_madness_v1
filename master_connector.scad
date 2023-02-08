@@ -23,6 +23,11 @@ use <data operations/lists/list_remove_by_index.scad>
 use <data operations/lists/list_remove_by_list.scad>
 use <data operations/lists/list_replace_by_index.scad>
 use <data operations/lists/list_replace_by_list.scad>
+use <data operations/lists/list_upto_n.scad>
+use <data operations/lists/list_after_n.scad>
+use <data operations/lists/list_last_n.scad>
+
+
 use <data operations/flatten.scad>
 
 use <fundamentals/inc.scad>
