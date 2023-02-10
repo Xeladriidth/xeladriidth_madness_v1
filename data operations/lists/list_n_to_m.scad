@@ -6,6 +6,8 @@ assert(is_list(input_data))
 
 assert(is_num(n)) assert(is_num(m))
 
+assert(m>n) assert(m<=len(input_data))
+
 list_last_n(
     list_upto_n(
         input_data,m
