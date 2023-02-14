@@ -1,0 +1,7 @@
+probability functions:
+
+gaussian
+binomial
+polynomial
+exponential
+t-dist

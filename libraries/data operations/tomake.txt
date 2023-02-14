@@ -1,0 +1,2 @@
+/arrays|lists|strings
+-booleans: union,difference,intersection,xor,etc

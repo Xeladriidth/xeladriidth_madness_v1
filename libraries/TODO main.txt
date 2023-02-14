@@ -1,0 +1,5 @@
+1) shatter existing libraries into single file
+2) upload shattered files to git
+3) fill in shattered functions
+4) create main connector from list
+5) start with polytypic functions
