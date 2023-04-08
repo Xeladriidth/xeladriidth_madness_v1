@@ -1,0 +1,38 @@
+C:\Users\erik\documents\openscad\libraries\master_connector.scad:7://use <assertions/arrays/is_array.scad>
+C:\Users\erik\documents\openscad\libraries\search_entire_library.ps1:1:$pattern = "is_array"
+C:\Users\erik\documents\openscad\libraries\search_entire_library.ps1:11:#select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\Users\erik\documents\openscad\libraries\search_entire_library.ps1:17:select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\users\erik\documents\openscad\libraries\master_connector.scad:7://use <assertions/arrays/is_array.scad>
+C:\users\erik\documents\openscad\libraries\search_entire_library.ps1:1:$pattern = "is_array"
+C:\users\erik\documents\openscad\libraries\search_entire_library.ps1:11:#select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\users\erik\documents\openscad\libraries\search_entire_library.ps1:17:select-string -pattern "is_array" -path $file | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\users\erik\documents\openscad\libraries\assertions\same_type.scad:31:  (is_list(input_1)&&!is_array(input_2))
+C:\users\erik\documents\openscad\libraries\assertions\same_type.scad:32:&&(is_list(input_2)&&!is_array(input_2))
+C:\users\erik\documents\openscad\libraries\assertions\same_type.scad:37:  (is_array(input_1))
+C:\users\erik\documents\openscad\libraries\assertions\same_type.scad:38:&&(is_array(input_2))
+C:\users\erik\documents\openscad\libraries\assertions\arrays\array_is_euclidic.scad:19://assert(is_array(input_data))
+C:\users\erik\documents\openscad\libraries\assertions\arrays\array_level.scad:25:  (is_array(input_data[0]))
+C:\users\erik\documents\openscad\libraries\assertions\arrays\array_level.scad:30:  !(is_array(input_data[0]))
+C:\users\erik\documents\openscad\libraries\assertions\arrays\array_size.scad:3://assert(is_array(input)||index!=undef)
+C:\users\erik\documents\openscad\libraries\assertions\arrays\connector_assertions_arrays.scad:4:use <is_array.scad>
+C:\users\erik\documents\openscad\libraries\data operations\element.scad:23:  (is_array(input))
+C:\users\erik\documents\openscad\libraries\data operations\arrays\array_level.scad:13:  (is_array(input_data[0]))
+C:\users\erik\documents\openscad\libraries\data operations\cells\cell_add.scad:44:  (is_array(cell_a))
+C:\users\erik\documents\openscad\libraries\data operations\cells\cell_add.scad:45:||(is_array(cell_b))
+C:\users\erik\documents\openscad\libraries\data operations\cells\cell_diff.scad:28:  (is_array(cell_a))
+C:\users\erik\documents\openscad\libraries\data operations\cells\cell_diff.scad:29:||(is_array(cell_b))
+C:\users\erik\documents\openscad\libraries\data operations\lists\list_remove.scad:7:assert(!is_array(input_data))
+C:\users\erik\documents\openscad\libraries\fundamentals\condit.scad:70:  is_array(template)
+C:\users\erik\documents\openscad\libraries\fundamentals\elem.scad:23:  (is_array(retrievor))
+C:\Users\erik\documents\openscad\libraries\master_connector.scad:7://use <assertions/arrays/is_array.scad>
+C:\Users\erik\documents\openscad\libraries\search_entire_library.ps1:1:$pattern = "is_array"
+C:\Users\erik\documents\openscad\libraries\search_entire_library.ps1:11:#select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\Users\erik\documents\openscad\libraries\search_entire_library.ps1:17:select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\Users\Erik\documents\openscad\libraries\master_connector.scad:7://use <assertions/arrays/is_array.scad>
+C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:1:$pattern = "is_array"
+C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:11:#select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:17:select-string -pattern "is_array" -path "C:\Users\Erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\Users\Erik\documents\openscad\libraries\master_connector.scad:7://use <assertions/arrays/is_array.scad>
+C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:1:$pattern = "is_array"
+C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:11:#select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:17:select-string -pattern "is_array" -path "C:\Users\Erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
