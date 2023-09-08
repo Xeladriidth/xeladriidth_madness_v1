@@ -1,4 +1,4 @@
-use <assertions/lists/list_is_flat.scad>
+
 
 function flatten(input_data,carry) = 
 
@@ -27,4 +27,4 @@ test_list_flatten = [ [2,2],[2,2]];
 
 echo(test_list_flatten);
 
-//echo(flatten(test_list_flatten));
+//echo(flatten(test_list_flatten));//unfinished

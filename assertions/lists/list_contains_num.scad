@@ -25,3 +25,4 @@ assert(is_list(input_list))
     list_contains_num(input_list,index+1):
 
 assert(false,"function definition overrun for assertion list_contains_num");
+//unfinished

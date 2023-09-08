@@ -3,6 +3,10 @@ hexadecic_lookup_vector = [
 "A","B","C","D","E","F"
 ];
 
+hexadecic = "
+arguments -input_number(expects num)
+";
+
 function  hexadecic(input_number) = 
 
 (
@@ -17,4 +21,4 @@ function  hexadecic(input_number) =
 
 hexadecic_lookup_vector[input_number];
 
-//for(q=[0:1:20]) echo(hexadecic(q));
+//for(q=[0:1:20]) echo(hexadecic(q));//unfinished

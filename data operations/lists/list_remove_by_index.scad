@@ -48,4 +48,4 @@ test_list_1 = [ for(q=[0:1:10]) q ];
 
 echo(test_list_1);
 
-echo(list_remove_by_index(test_list_1,1));
+echo(list_remove_by_index(test_list_1,1));//unfinished

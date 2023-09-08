@@ -8,4 +8,4 @@ echo(test_list_1);
 
 echo(invert_list(test_list_1));
 
-echo(invert_list([]));
+echo(invert_list([]));//unfinished

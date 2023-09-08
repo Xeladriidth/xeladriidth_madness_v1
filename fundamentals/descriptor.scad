@@ -1,1 +1,1 @@
-//retrieves descriptor of any data field
+//retrieves descriptor of any data field//unfinished

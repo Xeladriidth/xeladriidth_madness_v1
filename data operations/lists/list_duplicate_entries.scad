@@ -25,4 +25,4 @@ assert(is_list(input_list))
         )
     ):
 
-assert(false,"function definition overrun for function list_duplicate_entries");
+assert(false,"function definition overrun for function list_duplicate_entries");//unfinished

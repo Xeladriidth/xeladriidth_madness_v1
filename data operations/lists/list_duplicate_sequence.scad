@@ -4,4 +4,4 @@ function list_duplicate_sequence(input_list) =
 
 assert(is_list(input_list))
 
-concat([input_list],[input_list]);
+concat([input_list],[input_list]);//unfinished

@@ -1,5 +1,7 @@
 include <master_connector.scad>
 
+//goal of function: provide a measure of total data contained within single object that works agnostically of input format and is extendable to hitherto unknown formats
+
 function span (input_data,index,carry) =
 
 assert(!is_undef(input_data))
@@ -66,4 +68,4 @@ echo(span(test_number));
 
 echo(log(10,test_number));
 
-echo(span(test_array));
+echo(span(test_array));//unfinished

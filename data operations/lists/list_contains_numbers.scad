@@ -30,3 +30,4 @@ test_list_1 = [ for(q=[0:1:10]) round(rands(0,9,1)[0])];
 echo(test_list_1);
 
 echo(list_contains_numbers(test_list_1));
+//unfinished

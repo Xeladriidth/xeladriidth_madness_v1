@@ -1,21 +1,45 @@
-//this file contains the assertion function is_array
+include <master_connector.scad>
 
-//an array currently is defined as any list of lists with unspecified length, content, dimensionality etc
+is_array = "
 
-function is_array(input,index) =
+";
 
-assert(is_list(input))
+function is_array(input_data,pointer) = 
 
-//paradigm: has the object a length and does any subsidiary have a length?
-    
-(index==undef)?
-    is_array(input,0):
-    
-(index>=len(input))?
+assert(!is_undef(input_data))
+
+(
+  (!is_list(input_data))
+)?
     false:
-    
-(is_list(input[index]))?
-    true:
-    
-is_array(input,index+1);
 
+(
+  (ndef(pointer))
+)?
+    is_array(input_data,0):
+
+(
+  (pointer>=len(input_data))
+&&(!is_list(input_data[pointer]))
+)?
+    false:
+
+(
+  (pointer<len(input_data))
+&&(is_list(input_data[pointer]))
+)?
+    true:
+
+(
+  (pointer<len(input_data))
+&&(!is_list(input_data[pointer]))
+)?
+    is_array(input_data,pointer+1):
+
+assert(false,"function definition overrun for function is_array");
+
+//test_array_1 =[for(q=[0:1:10]) q,[11,12]];
+
+//echo(test_array_1);
+
+//echo(is_array(test_array_1));//unfinished

@@ -1,4 +1,4 @@
-use <is_array.scad>
+
 
 function element(input,coordinates,index) =
 
@@ -37,3 +37,4 @@ function element(input,coordinates,index) =
     assert(false,"strings are not nested and thus cannot be retrieved by nested coordinates"):
 
 "thou hast reached the end of the coordinate function, woe be unto you";
+//unfinished

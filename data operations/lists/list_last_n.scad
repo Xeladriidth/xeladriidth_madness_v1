@@ -1,3 +1,5 @@
+include <master_connector.scad>
+
 function list_last_n(input_data,n,pointer,carry) =
 
 assert(is_list(input_data))
@@ -17,7 +19,7 @@ assert(is_list(input_data))
   (pointer<len(input_data))
 &&(pointer>=(len(input_data)-n))
 )?
-    list_last_n(input_data,n,pointer+1,concat(carry,input_data[pointer])):
+    list_last_n(input_data,n,pointer+1,concat(carry,[input_data[pointer]])):
 
 (
   (pointer<len(input_data))
@@ -27,7 +29,4 @@ assert(is_list(input_data))
 
 
 assert(false,"function definition overrun for function list_last_n");
-
-test_list_1 = [for(q=[0:1:10]) q];
-
-for(q=[0:1:10]) echo(list_last_n(test_list_1,q));
+//unfinished

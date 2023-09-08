@@ -3,6 +3,10 @@ letter_lookup_vector = [
 "P","Q","R","S","T","U","V","W","X","Y","Z"
 ];
 
+letter = "
+arguments -input_number(expects num)
+";
+
 function  letter(input_number) = 
 
 (
@@ -17,4 +21,4 @@ function  letter(input_number) =
 
 letter_lookup_vector[input_number];
 
-//for(q=[0:1:10]) echo(letter(q));
+//for(q=[0:1:10]) echo(letter(q));//unfinished
