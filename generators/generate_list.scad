@@ -27,4 +27,4 @@ undef;
 echo(generate_list(3));
 
 
-echo(generate_list(5,2));
+echo(generate_list(5,2));//unfinished

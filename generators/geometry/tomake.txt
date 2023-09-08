@@ -1,0 +1,5 @@
+geometry generators, dimensional expanders
+
+conway operations
+
+intersections, removal of internal vertices//unfinished
