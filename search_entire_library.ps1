@@ -18,4 +18,4 @@ write-host $file
 foreach($path in $location_list ) {
 write-host $path
 select-string -pattern $pattern -path $path 
-}
+}//unfinished

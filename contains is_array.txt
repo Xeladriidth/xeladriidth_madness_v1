@@ -36,3 +36,7 @@ C:\Users\Erik\documents\openscad\libraries\master_connector.scad:7://use <assert
 C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:1:$pattern = "is_array"
 C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:11:#select-string -pattern "is_array" -path "C:\Users\erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
 C:\Users\Erik\documents\openscad\libraries\search_entire_library.ps1:17:select-string -pattern "is_array" -path "C:\Users\Erik\documents\openscad\libraries\$file" | add-content "C:\users\erik\documents\openscad\libraries\contains is_array.txt"
+//unfinished
+//unfinished
+/*unfinished*/
+//
