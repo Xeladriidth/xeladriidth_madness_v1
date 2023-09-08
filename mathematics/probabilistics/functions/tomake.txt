@@ -5,3 +5,4 @@ binomial
 polynomial
 exponential
 t-dist
+//unfinished

@@ -19,3 +19,4 @@ assert(is_num(input_num))
     carry:
 
     factorial(input_num,index+1,carry*index);
+//unfinished

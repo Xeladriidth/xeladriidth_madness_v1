@@ -4,6 +4,8 @@
 
 //@numbers
 
+include <master_connector.scad>
+
 unsigned_integer_32_max = pow(2,32)-1;
 
 unsigned_integer_32_overmax = pow(2,32);
@@ -35,3 +37,11 @@ string_alphanumerics = "0123456789abcdefghijklmnopqrstuvwxyz";
 string_hexadecics = "0123456789abcdef";
 
 string_alphabetics = "abcdefghijklmnopqrstuvwxyz";
+
+test_list_1 = [for(q=[0:1:127]) q];
+
+test_array_1 = (
+fold( [for(q=[0:1:127]) q] , [2,2,2])
+);
+
+echo(test_array_1);//unfinished
