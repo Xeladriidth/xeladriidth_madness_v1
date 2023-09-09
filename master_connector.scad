@@ -5,6 +5,8 @@ use <assertions/strings/len_string.scad>
 
 use <assertions/arrays/array_is_euclidic.scad>
 use <assertions/arrays/is_array.scad>
+use <assertions/arrays/array_is_1array.scad>
+use <assertions/arrays/len_array.scad>
 
 use <assertions/lists/list_is_flat.scad>
 use <assertions/lists/list_only_nums.scad>
@@ -55,6 +57,7 @@ use <data operations/lists/list_multiply.scad>
 use <data operations/lists/list_divide.scad>
 use <data operations/lists/list_modulo.scad>
 use <data operations/lists/list_logic.scad>
+use <data operations/lists/list_select.scad>
 
 use <data operations/strings/string_upto_n.scad>
 use <data operations/strings/string_last_n.scad>
