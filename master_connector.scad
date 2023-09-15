@@ -36,6 +36,7 @@ use <data operations/lists/list_functional_sequention.scad>
 use <data operations/lists/list_remove_by_conditional.scad>
 use <data operations/lists/list_remove_by_index.scad>
 use <data operations/lists/list_remove_by_list.scad>
+use <data operations/lists/list_remove.scad>
 use <data operations/lists/list_replace_by_index.scad>
 use <data operations/lists/list_replace_by_list.scad>
 use <data operations/lists/list_upto_n.scad>
@@ -58,12 +59,19 @@ use <data operations/lists/list_divide.scad>
 use <data operations/lists/list_modulo.scad>
 use <data operations/lists/list_logic.scad>
 use <data operations/lists/list_select.scad>
+use <data operations/lists/list_to_string.scad>
 
 use <data operations/strings/string_upto_n.scad>
 use <data operations/strings/string_last_n.scad>
 use <data operations/strings/string_after_n.scad>
 use <data operations/strings/string_n_m.scad>
 use <data operations/strings/substring.scad>
+use <data operations/strings/string_select.scad>
+use <data operations/strings/string_remove.scad>
+use <data operations/strings/string_replace.scad>
+use <data operations/strings/string_insert.scad>
+use <data operations/strings/string_to_list.scad>
+use <data operations/strings/string_remove_string.scad>
 
 use <data operations/monoliths/data_from_dual.scad>
 use <data operations/monoliths/string_from_dual.scad>
@@ -78,6 +86,7 @@ use <fundamentals/fold_list.scad>
 use <fundamentals/elem.scad>
 use <fundamentals/unfold.scad>
 use <fundamentals/condit.scad>
+use <fundamentals/unfold_complete.scad>
 
 use <generators/generate_list.scad>
 use <generators/random_number.scad>
